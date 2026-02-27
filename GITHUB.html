@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content ="width=device-width, initial-scale=1.0">
+<title>Responsive Web Design Example</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+padding: 20px;
+}
+.box{
+width: 80%;
+margin: auto;
+background-color: red;
+padding: 20px;
+border-radius: 10px;
+} 
+@media (max-width: 600px)
+{
+.box{
+background-color: green;
+max-width: 400px;
+}
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>Welcome to the Responsive box</h1>
+<p>
+This is a simple example of responsive web design. Resize your browser window to see how the layout changes.</p>
+</div>
+</body>
+</html> 
